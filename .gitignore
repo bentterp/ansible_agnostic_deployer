@@ -10,3 +10,5 @@ ansible/judd.sh
 *.swp
 scripts/*.rc
 wk*.rc
+.gitignore
+ansible/configs/bu-workshop/env_vars.yml
