@@ -1,0 +1,1 @@
+ansible-playbook -i `pwd`/ansible/inventory/ec2.py ansible/main.yml ansible/main.yml  -e "env_type=bu-workshop"  -e "aws_region=eu-west-1"  -e "owner=bent.terp@basefarm.com" -e "guid=benttest"  -e "cloud_provider=ec2"  -e "software_to_deploy=openshift" -e ANSIBLE_REPO_PATH=$PWD/ansible -e num_nodes=1 -e user_vols=2
